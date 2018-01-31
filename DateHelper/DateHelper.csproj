@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Chonla.DateTimeHelper</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Author>Chonlasith Jucksriporn</Author>
+    <Description>Date time Helper</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNote>First Release</PackageReleaseNote>
+    <Copyright>Copyright 2018 (c) Chonlasith Jucksriporn</Copyright>
+    <PackageTags>datetime helper</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Chonla.Duration" Version="1.0.1" />
+  </ItemGroup>
+
+</Project>
